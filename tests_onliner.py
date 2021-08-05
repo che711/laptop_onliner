@@ -3,7 +3,6 @@ import time
 from pages.locators import CatalogPageLocators
 from pages.locators import ProductPageLocators
 from pages.locators import SortPageLocators
-from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
 # pytest -s -vv tests_onliner.py
