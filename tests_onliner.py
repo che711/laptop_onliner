@@ -6,8 +6,6 @@ from pages.locators import SortPageLocators
 from selenium.webdriver.common.action_chains import ActionChains
 
 # pytest -s -vv tests_onliner.py
-# pytest -s -v --browser_name=chrome test_onliner.py
-# pytest -s -v --browser_name=firefox test_onliner.py
 
 def test_hover(browser):
     link = 'https://www.onliner.by/'

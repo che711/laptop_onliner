@@ -2,5 +2,5 @@
 requests==2.22.0
 selenium
 allure-pytest
-chromedriverge
-geckodriver
+chromedriver
+
