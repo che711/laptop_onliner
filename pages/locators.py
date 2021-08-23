@@ -27,5 +27,5 @@ class SortPageLocators():
     FIRST_ELEMENT_POSITION = (By.XPATH, '//*[@id="schema-products"]/div[1]/div/div[3]/div[2]/div[1]/a/span')
     SORT_IN_DESCENDING = (By.XPATH, '//*[@id="schema-order"]/div[2]/div/div[3]/span')
     GO_TO_END_ONE_STEP = (By.XPATH, '//*[@id="schema-pagination"]/div[1]/div')
-    CO_TO_END_TWO_STEP = (By.XPATH, '//*[@id="mCSB_1_container"]/ul/li[5]/a')
+    CO_TO_END_TWO_STEP = (By.XPATH, '/html/body/div[1]/div/div/div/div/div/div[2]/div[1]/div[4]/div[3]/div[6]/div[2]/div/div/div[1]/ul/li[3]/a')
     END_ELEMENT_POSITION = (By.XPATH, '(//*[@id="schema-products"]//a/span)[last()]')

@@ -1,4 +1,3 @@
-from pages.catalog_page import CatalogPage
 import time
 from pages.locators import CatalogPageLocators
 from pages.locators import ProductPageLocators
@@ -31,14 +30,14 @@ def test_hover(browser):
     hp = browser.find_element(*ProductPageLocators.HP_CHECKBOX)
     hp.click()
     min_price = browser.find_element(*ProductPageLocators.MIN_PRICE)
-    min_price.send_keys(1500)
+    min_price.send_keys('1500')
     max_price = browser.find_element(*ProductPageLocators.MAX_PRICE)
-    max_price.send_keys(3000)
+    max_price.send_keys('3000')
     print("\n\tУказали диапазон цен")
     min_screen_diagonal = browser.find_element(*ProductPageLocators.MIN_SCRIN_DIAGONAL)
-    min_screen_diagonal.send_keys(12)
+    min_screen_diagonal.send_keys('14')
     max_screen_diagonal = browser.find_element(*ProductPageLocators.MAX_SCRIN_DIAGONAL)
-    max_screen_diagonal.send_keys('13.4')
+    max_screen_diagonal.send_keys('14.5')
     print("\n\tУказали диагональ")
     button_all_products = browser.find_element(*ProductPageLocators.ALL_PRODUCTS)
     button_all_products.click()
