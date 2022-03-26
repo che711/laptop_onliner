@@ -1,5 +1,5 @@
 ﻿pytest
-requests==2.22.0
+requests
 selenium
 allure-pytest
 chromedriver
